@@ -27,7 +27,6 @@
     int number4 = 6;
     
     
-    
     return (number3 == number4);
 }
 
