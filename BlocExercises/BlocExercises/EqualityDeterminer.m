@@ -13,28 +13,23 @@
 - (BOOL) string:(NSString *)string1 isTheSameAsString:(NSString *)string2 {
     /* WORK HERE */
     
-    string1 = @"Cheerios";
-    string2 = @"Cheerios";
+   
+    return [string1 isEqualToString: string2];
     
     
-    return (string1 == string2);
 }
+
 
 - (BOOL) number:(NSNumber *)number1 isTheSameAsNumber:(NSNumber *)number2 {
     /* WORK HERE */
     
-    int number3 = 6;
-    int number4 = 6;
     
-    
-    return (number3 == number4);
+    return [number1 isEqualToNumber: number2];
 }
 
 - (BOOL) integer:(NSInteger)integer1 isGreaterThan:(NSInteger)integer2 {
     /* WORK HERE */
     
-    integer1 = 7;
-    integer2 = 3;
     
     return (integer1 > integer2);
     
