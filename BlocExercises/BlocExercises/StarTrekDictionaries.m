@@ -37,7 +37,7 @@
 }
 
 - (NSArray *)arrayOfFavoriteDrinksForStarTrekCharacters:(NSArray *)charactersArray {
-    /* WORK HERE */
+
     NSMutableArray *drinksArray = [[NSMutableArray alloc] init];
     
     for (NSDictionary *character in charactersArray) {
